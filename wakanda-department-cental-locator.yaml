@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: wakanda-users-and-groups-locator
+  description: this is a basic main users and groups locator.
+spec:
+  targets:
+    - ./groups/groups.yaml
+    - ./users/users.yaml
